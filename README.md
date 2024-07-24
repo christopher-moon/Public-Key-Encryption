@@ -1,3 +1,9 @@
+CURRENT ISSUES:
+
+    -bit display doesn't work for encrypting and decrypting 
+
+    -some memory leaks
+
 FILES:
 
     decrypt.c: allows the user to decrypt an encrypted file 
