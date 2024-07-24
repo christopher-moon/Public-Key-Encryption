@@ -1,32 +1,32 @@
 FILES:
 
-decrypt.c: allows the user to decrypt an encrypted file 
+    decrypt.c: allows the user to decrypt an encrypted file 
 
-encrypt.c: allows the user to encrypt a file
+    encrypt.c: allows the user to encrypt a file
 
-keygen.c: allows the user to generate a public/private key pair
+    keygen.c: allows the user to generate a public/private key pair
 
-numtheory.c: mathematics behind SS encryption method
+    numtheory.c: mathematics behind SS encryption method
 
-randstate.c: random state initialization functions
+    randstate.c: random state initialization functions
 
-ss.c: contains implementation of the SS encryption method
+    ss.c: contains implementation of the SS encryption method
 
 
 COMPILING
 
-make all: compiles all
+    make all: compiles all
 
-make clean: removes all executables
+    make clean: removes all executables
 
-make format: formats C and header files
+    make format: formats C and header files
 
 
 KEYGEN.C options:
 
-HOW TO RUN: ./keygen [options]
+    HOW TO RUN: ./keygen [options]
 
-OPTIONS:
+    OPTIONS:
 
     -i: infile
 
@@ -41,9 +41,9 @@ OPTIONS:
 
 ENCRYPT.C options:
 
-HOW TO RUN: ./keygen [options]
+    HOW TO RUN: ./keygen [options]
 
-OPTIONS:
+    OPTIONS:
 
     -i: infile
 
@@ -58,9 +58,9 @@ OPTIONS:
 
 DECRYPT.C options:
 
-HOW TO RUN: ./keygen [options]
+    HOW TO RUN: ./keygen [options]
 
-OPTIONS:
+    OPTIONS:
 
     -i: infile
 
